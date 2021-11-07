@@ -44,6 +44,12 @@ p {
     background-color: rgb(28, 40, 109);
 }
 
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+      font-size: 14px;
+  }
+}
+
 #back-to-top-btn {
 display: none;
 position: fixed;
