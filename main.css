@@ -44,12 +44,6 @@ p {
     background-color: rgb(28, 40, 109);
 }
 
-@media screen and (max-width: 600px) {
-  .navbar-brand {
-      font-size: 14px;
-  }
-}
-
 #back-to-top-btn {
 display: none;
 position: fixed;
@@ -178,4 +172,10 @@ color: black;
 #fs-frm fieldset.locale input[name="city"],
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+      font-size: 14px;
+  }
 }
